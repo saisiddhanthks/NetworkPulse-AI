@@ -1,0 +1,14 @@
+{
+  "flows": 120000,
+  "attack_labelled": 60000,
+  "high": 60009,
+  "critical": 25885,
+  "features": 70,
+  "source": "CICIDS2017 real-data evidence cache",
+  "ensemble_weights": {
+    "XGBoost": 0.5,
+    "LightGBM": 0.3,
+    "CatBoost": 0.2
+  },
+  "attack_threshold": 0.37
+}

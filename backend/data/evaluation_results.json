@@ -1,0 +1,97 @@
+{
+  "available": true,
+  "test_rows": 24000,
+  "train_rows": 96000,
+  "features": 70,
+  "split": "Stratified 80/20 hold-out from 120,000-row real-data evidence sample; random_state=42",
+  "champion": "Ensemble (XGBoost + LightGBM + CatBoost)",
+  "decision_threshold": 0.37,
+  "ensemble_weights": {
+    "XGBoost": 0.5,
+    "LightGBM": 0.3,
+    "CatBoost": 0.2
+  },
+  "models": [
+    {
+      "model": "XGBoost",
+      "accuracy": 0.9987083333333333,
+      "precision": 0.9981686506284858,
+      "recall": 0.99925,
+      "f1": 0.9987090326073377,
+      "roc_auc": 0.9998770381944444,
+      "pr_auc": 0.9998626821132777,
+      "threshold": 0.38,
+      "confusion_matrix": [
+        [
+          11978,
+          22
+        ],
+        [
+          9,
+          11991
+        ]
+      ]
+    },
+    {
+      "model": "LightGBM",
+      "accuracy": 0.9987083333333333,
+      "precision": 0.9983345823965359,
+      "recall": 0.9990833333333333,
+      "f1": 0.9987088175267608,
+      "roc_auc": 0.999880920138889,
+      "pr_auc": 0.9998528907115252,
+      "threshold": 0.23,
+      "confusion_matrix": [
+        [
+          11980,
+          20
+        ],
+        [
+          11,
+          11989
+        ]
+      ]
+    },
+    {
+      "model": "CatBoost",
+      "accuracy": 0.9985,
+      "precision": 0.9981678880746169,
+      "recall": 0.9988333333333334,
+      "f1": 0.9985004998333888,
+      "roc_auc": 0.999849,
+      "pr_auc": 0.9998414219535149,
+      "threshold": 0.59,
+      "confusion_matrix": [
+        [
+          11978,
+          22
+        ],
+        [
+          14,
+          11986
+        ]
+      ]
+    },
+    {
+      "model": "Ensemble",
+      "accuracy": 0.9988333333333334,
+      "precision": 0.9983349983349983,
+      "recall": 0.9993333333333333,
+      "f1": 0.9988339163751457,
+      "roc_auc": 0.9999071527777779,
+      "pr_auc": 0.9999006135499229,
+      "threshold": 0.37,
+      "confusion_matrix": [
+        [
+          11980,
+          20
+        ],
+        [
+          8,
+          11992
+        ]
+      ]
+    }
+  ],
+  "caveat": "Metrics are held-out within the 120k sampled CICIDS2017 evidence cache, not a cross-day deployment benchmark."
+}

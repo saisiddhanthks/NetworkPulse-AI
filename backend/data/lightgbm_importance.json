@@ -1,0 +1,62 @@
+[
+  {
+    "feature": "Destination Port",
+    "importance": 4918.0
+  },
+  {
+    "feature": "Init_Win_bytes_forward",
+    "importance": 3059.0
+  },
+  {
+    "feature": "Flow IAT Min",
+    "importance": 1956.0
+  },
+  {
+    "feature": "Init_Win_bytes_backward",
+    "importance": 1459.0
+  },
+  {
+    "feature": "Fwd IAT Min",
+    "importance": 1091.0
+  },
+  {
+    "feature": "Flow Duration",
+    "importance": 1003.0
+  },
+  {
+    "feature": "Flow Bytes/s",
+    "importance": 975.0
+  },
+  {
+    "feature": "Bwd Packets/s",
+    "importance": 846.0
+  },
+  {
+    "feature": "Fwd Packets/s",
+    "importance": 621.0
+  },
+  {
+    "feature": "Flow IAT Mean",
+    "importance": 499.0
+  },
+  {
+    "feature": "Flow Packets/s",
+    "importance": 410.0
+  },
+  {
+    "feature": "Fwd Header Length",
+    "importance": 408.0
+  },
+  {
+    "feature": "Bwd IAT Min",
+    "importance": 397.0
+  },
+  {
+    "feature": "min_seg_size_forward",
+    "importance": 393.0
+  },
+  {
+    "feature": "Fwd IAT Std",
+    "importance": 388.0
+  }
+]

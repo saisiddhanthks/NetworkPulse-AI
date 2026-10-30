@@ -1,0 +1,62 @@
+[
+  {
+    "feature": "Bwd Packet Length Min",
+    "importance": 0.5705605149269104
+  },
+  {
+    "feature": "Packet Length Mean",
+    "importance": 0.1231338381767273
+  },
+  {
+    "feature": "Subflow Fwd Packets",
+    "importance": 0.021264368668198586
+  },
+  {
+    "feature": "Fwd Packet Length Std",
+    "importance": 0.018899578601121902
+  },
+  {
+    "feature": "Bwd Header Length",
+    "importance": 0.017172744497656822
+  },
+  {
+    "feature": "Bwd Packet Length Std",
+    "importance": 0.016571203246712685
+  },
+  {
+    "feature": "Bwd Packet Length Mean",
+    "importance": 0.016541896387934685
+  },
+  {
+    "feature": "Destination Port",
+    "importance": 0.016005171462893486
+  },
+  {
+    "feature": "Active Std",
+    "importance": 0.01457169372588396
+  },
+  {
+    "feature": "Init_Win_bytes_backward",
+    "importance": 0.013937268406152725
+  },
+  {
+    "feature": "Total Length of Fwd Packets",
+    "importance": 0.013369216583669186
+  },
+  {
+    "feature": "Fwd Header Length",
+    "importance": 0.012149984948337078
+  },
+  {
+    "feature": "Total Fwd Packets",
+    "importance": 0.010487256571650505
+  },
+  {
+    "feature": "Average Packet Size",
+    "importance": 0.010104887187480927
+  },
+  {
+    "feature": "PSH Flag Count",
+    "importance": 0.008132660761475563
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "feature": "Destination Port",
+    "importance": 18.354748705341972
+  },
+  {
+    "feature": "Init_Win_bytes_backward",
+    "importance": 11.735748873403603
+  },
+  {
+    "feature": "Init_Win_bytes_forward",
+    "importance": 5.411381874637795
+  },
+  {
+    "feature": "min_seg_size_forward",
+    "importance": 5.27916409560029
+  },
+  {
+    "feature": "Fwd Packet Length Max",
+    "importance": 4.724803368455061
+  },
+  {
+    "feature": "Bwd Packet Length Mean",
+    "importance": 3.211174114596657
+  },
+  {
+    "feature": "Fwd Header Length",
+    "importance": 3.0957086555729574
+  },
+  {
+    "feature": "Fwd IAT Min",
+    "importance": 2.9851693742653693
+  },
+  {
+    "feature": "Bwd Packet Length Min",
+    "importance": 2.80654944712351
+  },
+  {
+    "feature": "Packet Length Variance",
+    "importance": 2.762760962095323
+  },
+  {
+    "feature": "PSH Flag Count",
+    "importance": 2.3922859385379387
+  },
+  {
+    "feature": "Bwd Packet Length Std",
+    "importance": 2.3566144851830955
+  },
+  {
+    "feature": "Flow IAT Min",
+    "importance": 2.1343710157238567
+  },
+  {
+    "feature": "Subflow Bwd Bytes",
+    "importance": 2.061982467376793
+  },
+  {
+    "feature": "Bwd Packets/s",
+    "importance": 1.9431273823492505
+  }
+]

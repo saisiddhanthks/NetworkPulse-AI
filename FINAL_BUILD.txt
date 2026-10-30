@@ -1,0 +1,4 @@
+NETWORKPULSE AI — ULTIMATE FINAL BUILD
+Black cinematic SOC UI + CICIDS2017 evidence cache + ensemble ML + autonomous agent + Groq reasoning.
+Run: start.bat
+Dashboard: http://127.0.0.1:8000/
