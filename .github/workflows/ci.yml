@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    env:
+      DISABLE_AGENT_AUTORUN: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: backend/requirements-lock.txt
+      - name: Install dependencies
+        run: pip install -r backend/requirements-lock.txt
+      - name: API smoke test
+        run: python backend/tests/smoke_test.py
+      - name: Agent tool-calling test (mocked LLM)
+        run: python backend/tests/agent_mock_test.py

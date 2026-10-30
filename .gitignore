@@ -1,9 +1,21 @@
+# Python
 __pycache__/
 *.pyc
 .venv/
+venv/
+
+# Secrets - never commit live API keys
 .env
-frontend/node_modules/
-backend/data/uploaded_analysis.csv
+backend/.env
+
+# Large / generated data
+backend/data/raw/*
+!backend/data/raw/.gitkeep
 backend/data/work/
-backend/data/raw/
-*.zip
+backend/data/uploaded_analysis.csv
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

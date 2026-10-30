@@ -4,6 +4,8 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 from app import agent
 
 original=agent.groq_request
+original_key=agent.GROQ_API_KEY
+agent.GROQ_API_KEY='test-key'  # force the Groq code path; no network call is made
 calls={'n':0}
 
 def fake_request(messages, tools=None):
@@ -21,3 +23,4 @@ try:
     print('AGENT MOCK TOOL-CALL TEST: PASS')
 finally:
     agent.groq_request=original
+    agent.GROQ_API_KEY=original_key

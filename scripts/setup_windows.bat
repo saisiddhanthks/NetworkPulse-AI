@@ -46,7 +46,7 @@ if errorlevel 1 goto :fail
 
 echo.
 echo SETUP COMPLETE.
-echo Models and real CICIDS2017 evidence cache are already bundled.
+echo Trained models and the CICIDS2017 evidence cache are bundled.
 echo No npm install is required.
 echo.
 exit /b 0
@@ -54,7 +54,7 @@ exit /b 0
 :missingmodel
 :missingcache
 :missingeval
-echo ERROR: A required packaged artifact is missing. Re-extract the FINAL ZIP and rerun setup.
+echo ERROR: A required artifact is missing. Re-clone the repository (Git LFS is not required) and rerun setup.
 goto :fail
 
 :fail
